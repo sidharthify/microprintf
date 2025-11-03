@@ -6,5 +6,4 @@ clean:
 
 # microprintf
 microprintf: microprintf.c
-	gcc -nostdlib -nostartfiles -fno-builtin -fno-stack-protector -O0 microprintf.c -o microprintf
-
+	gcc -fno-builtin -fno-stack-protector -O0 microprintf.c -o microprintf
